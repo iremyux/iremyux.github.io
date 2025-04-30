@@ -1,4 +1,4 @@
-name: Build
+iname: Build
 
 on:
   push:
@@ -12,7 +12,7 @@ jobs:
     secrets: inherit
     with:
       runner: linux.12xlarge
-      repository: pytorch/pytorch.github.io
+      repository: iremyux/iremyux.github.io
       docker-image: cimg/ruby:2.7-node
       secrets-env: PYTORCHBOT_TOKEN
       script: |
